@@ -41,21 +41,52 @@
     <DelaySign>false</DelaySign>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>lib\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="AstarPathfindingProject">
+      <HintPath>lib\Managed\AstarPathfindingProject.dll</HintPath>
+    </Reference>
     <Reference Include="BP-CoreLib">
       <HintPath>lib\BP-CoreLib.dll</HintPath>
+    </Reference>
+    <Reference Include="BPEssentials">
+      <HintPath>lib\BPEssentials.dll</HintPath>
     </Reference>
     <Reference Include="EmbedIO">
       <HintPath>lib\Managed\EmbedIO.dll</HintPath>
     </Reference>
     <Reference Include="ENet-CSharp">
-      <HintPath>..\..\..\BPPLASMAGANGS\src\BPPlasmaGangs\lib\Managed\ENet-CSharp.dll</HintPath>
+      <HintPath>lib\Managed\ENet-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="LiteDB">
       <HintPath>lib\Managed\LiteDB.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CodeAnalysis">
+      <HintPath>lib\Managed\Microsoft.CodeAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp">
+      <HintPath>lib\Managed\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp.Scripting">
+      <HintPath>lib\Managed\Microsoft.CodeAnalysis.CSharp.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.Scripting">
+      <HintPath>lib\Managed\Microsoft.CodeAnalysis.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>lib\Managed\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Posix, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\Managed\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>lib\Managed\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.WebBrowser">
+      <HintPath>lib\Managed\Mono.WebBrowser.dll</HintPath>
     </Reference>
     <Reference Include="NavMeshComponents">
       <HintPath>lib\Managed\NavMeshComponents.dll</HintPath>
@@ -274,6 +305,9 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>lib\Managed\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="zGameSource">
+      <HintPath>lib\zGameSource.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
