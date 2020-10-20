@@ -21,7 +21,7 @@ namespace BPPlasticSurgery.Commands
         {
             string list = "";
             player.manager.skinPrefabs.ToList().ForEach(x => list += x.name + "\n");
-            player.svPlayer.Send(SvSendType.Self, Channel.Reliable, ClPacket.TextMenu, list);
+            player.svPlayer.SendTextMenu("Skins", list);
         }
     }
 }
